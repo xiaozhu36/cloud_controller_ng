@@ -1,5 +1,5 @@
 require 'spec_helper'
-require 'cloud_controller/copilot_adapter'
+require 'cloud_controller/copilot/copilot_adapter'
 
 module VCAP::CloudController
   RSpec.describe CopilotAdapter do

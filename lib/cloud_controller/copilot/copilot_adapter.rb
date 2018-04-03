@@ -48,6 +48,10 @@ module VCAP::CloudController
         raise CopilotUnavailable.new(e.message)
       end
 
+      def bulk_sync(routes:, route_mappings:, processes:)
+        # send bulk sync data to pilot, given all the capi models
+      end
+
       private
 
       def copilot_client

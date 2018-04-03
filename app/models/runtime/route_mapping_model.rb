@@ -1,4 +1,4 @@
-require 'cloud_controller/copilot_adapter'
+require 'cloud_controller/copilot/copilot_adapter'
 
 module VCAP::CloudController
   class RouteMappingModel < Sequel::Model(:route_mappings)
